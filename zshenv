@@ -22,7 +22,7 @@ export PATH=$PATH:/Library/PostgreSQL/8.3/bin
 export PATH=/usr/local/var/postgresql/bin:${PATH}
 export PATH=${PATH}:$HOME/node_modules/js2coffee/bin/
 export PATH=${PATH}:$HOME/node_modules/docco/bin/
-export EDITOR='vi'
+export EDITOR='vim'
 export VIMRC=$HOME/.vimrc
 export ZEB='/Users/emir/workspace/zeboma'
 
@@ -36,3 +36,5 @@ fi
 
 export NODE_PATH=/usr/local/lib/jsctags/:$NODE_PATH
 export NODE_PATH=/usr/local/lib/jsctags/:$NODE_PATH
+# alias
+alias scrails='screen -c ~/.rails.screen'
