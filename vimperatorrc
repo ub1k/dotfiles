@@ -1,0 +1,10 @@
+"3.1 (created: 2011/04/21 21:46:34)
+
+map <F5> :t<Space>localhost:3000
+map Ctrl :firebug toggle <CR>
+map <F6> :firebug toggle <CR>
+set "editor=bash -lc \"mvim -f \\$*\" mvim "
+source! /Users/emir/.vimperatorrc.local
+
+" vim: set ft=vimperator:
+map <f6> :t file:///Users/emir/workspace/zeboma/doc/controllers_brief.svg, file:///Users/emir/workspace/zeboma/doc/controllers_complete.svg, file:///Users/emir/workspace/zeboma/doc/models_brief.svg, file:///Users/emir/workspace/zeboma/doc/models_complete.svg <CR>

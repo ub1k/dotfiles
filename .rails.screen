@@ -1,0 +1,21 @@
+#initiate a screen session with my
+# preferred dev environment
+#
+
+source /Users/emir/.screenrc
+
+screen -t dev 0
+split
+resize 40
+focus down
+# screen -t test 1 autotest -f
+screen -t test 1 guard
+split -v
+focus down
+screen -t console 2 rails c
+focus top
+screen -t server 3 rake jasmine 
+screen -t localhost 4 rails s 
+screen -t tail 5 tail -f log/development.log
+screen -t misc 6
+select 0
